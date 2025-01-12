@@ -9,7 +9,7 @@ def emp_home(request):
 
 
 
-    return render(request,"emp/home.html",{'emps':emps})
+    return render(request,"emp/home.html",{'Emps':emps})
 
 def add_emp(request):
     if request.method=="POST":
